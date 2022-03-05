@@ -178,7 +178,7 @@ You cant login to account because the user was removed [!]
         user33 = user32[1:]
         pass22 = pass2(comb)
         Login(user33,pass22)
-        sleep(10)
+        sleep(15)
         a4 += 1
 except KeyboardInterrupt:
     print("""
