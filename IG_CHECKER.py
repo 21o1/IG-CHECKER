@@ -72,7 +72,7 @@ talk to me in instagram => https://www.instagram.com/i0xb4d [+]
 
             """)
             savef_s.write(f"""
-            {user33}":"{pass22}
+            {user33}:{pass22}
             """)
         elif "userId" in Log.text:
             print(green + f"""
@@ -87,7 +87,7 @@ You can login to account without any problem
 
             """)
             log_ddon.write(f"""
-            {user33}":"{pass22}
+            {user33}:{pass22}
             """)
         elif '"authenticated":false' and '"user":true' in Log.text:
             print(red + f"""
@@ -133,7 +133,7 @@ You cant login to account because the user was removed [!]
             """)
             
             savefile_delet.write(f"""
-            {user33}":"{pass22}
+            {user33}:{pass22}
             """)
 
     a5 = 0
