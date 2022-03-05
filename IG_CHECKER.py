@@ -174,7 +174,8 @@ You cant login to account because the user was removed [!]
                 passgen += comb[len2]
                 len2 += 1
             return passgen
-        user33 = user2(comb)
+        user32 = user2(comb)
+        user33 = user32[1:]
         pass22 = pass2(comb)
         Login(user33,pass22)
         sleep(10)
